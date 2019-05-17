@@ -25,7 +25,7 @@ public class ProductController {
 	ProductService productService;
 	
 	@GetMapping
-	public List<Product> findAllEmployee() {
+	public List<Product> findAllProducts() {
 		return productService.findAllProducts();
 	}
 	
